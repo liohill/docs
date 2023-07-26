@@ -232,10 +232,6 @@ runai submit --job-name-prefix -i gcr.io/run-ai-demo/quickstart -g 1
 > MIG profile to allocate for the job (1g.5gb, 2g.10gb, 3g.20gb, 4g.20gb, 7g.40gb)
 
 ### Job Lifecycle
-
-#### --backoff-limit `<int>`
-
-> The number of times the Job will be retried before failing. The default is 6. This flag will only work with training workloads (when the `--interactive` flag is not specified).
       
 ### Storage
 
