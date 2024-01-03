@@ -32,9 +32,9 @@ As such, the chosen architecture of the user interface is:
 !!! Important note
     One corollary of this architecture is that for SaaS-based tenants, the user interface will only be able to access the cluster when the browser is inside the corporate firewall. When working outside the firewall. Workload-related functionality such as Submitting a Job, viewing Job lots etc, is disabled.
 
-## Administrator Messages
+## System Messages
 
-System administrators can use *Administrator messages* to make announcements to users once they have logged in. These messages typically are used to keep user informed about different aspects of the platform.
+System administrators can use *system messages* to make announcements to users once they have logged in. These messages typically are used to keep user informed about different aspects of the platform.
 
 To configure an *Administrator message*:
 
@@ -42,5 +42,6 @@ To configure an *Administrator message*:
 2. Expand the *Message from administrator* pane.
 3. Press *Message*.
 4. Enter your message in the text box. Use the formatting tools in the toolbar to add special formatting or links to the message.
-5. Enable the `Display "Don't show this again" checkbox on message to users` to allow the users to see the message only once.
+5. Enable the `Display "Don't show this again" checkbox on message to users to allow the users to see the message only once.
 6. Press *Publish* when complete.
+   When publishing a message, it appears on the screen for any logged-in user and every time users are logged in
